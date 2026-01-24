@@ -1,0 +1,260 @@
+*{
+    margin: top;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.R1 {
+    color: white;
+
+    position: absolute;
+    left: 460px;
+    top: 90px;
+}
+
+.Rimg {
+    width: 100px;
+    height: 90px;
+
+    position: absolute;
+
+    left: 50px;
+    top: 50px;
+}
+
+.gta5 {
+    width: 200px;
+    height: 180px;
+
+    border: 9px solid white;
+    border-radius: 25px;
+
+    position: absolute;
+    left: 100px;
+    top: 250px;
+}
+
+.R {
+    color: white;
+    font-size: 60px;
+
+    position: absolute;
+    left: 200px;
+    top: 40px;
+    transition: transform 500ms;
+    opacity: 100%;
+}
+
+.R:hover {
+    color: bisque;
+    transform: scale(1.05);
+}
+
+.gname {
+    color: white;
+    font-size: 40px;
+
+    position: absolute;
+    left: 330px;
+    top: 250px;
+}
+
+.star {
+    width: 30px;
+    height: 30px;
+
+    position: absolute;
+    left: 330px;
+    top: 320px;
+}
+
+.point {
+    color: white;
+    font-size: 23px;
+
+    position: absolute;
+    left: 367px;
+    top: 318px;
+}
+
+.download {
+    background-color: lime;
+
+    width: 170px;
+    height: 70px;
+
+    font-size: 20px;
+    color: white;
+
+    border-radius: 10px;
+
+    position: absolute;
+    left: 700px;
+    top: 360px;
+    transition: transform 500ms;
+}
+
+.download:hover {
+    transform: scale(1.1);
+    background-color: limegreen;
+}
+
+.picture1 {
+    border: 5px solid white;
+    border-radius: 10px;
+
+    position: absolute;
+    left: 1650px;
+    top: 220px;
+}
+
+.LM {
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+
+    background-color: aqua;
+
+    position: absolute;
+    left: 1650px;
+    top: 600px;
+    transition: transform 500ms;
+}
+
+.LM:hover {
+    transform: scale(1.1);
+    background-color: cornflowerblue ;
+}
+
+.exp {
+    font-size: 20px;
+    color: white;
+
+    position: absolute;
+    top: 50%;
+    left: 50px;
+}
+
+.video {
+    border: 7px solid white;
+    
+    position: absolute;
+    top: 70%;
+    left: 60px;
+}
+
+.div {
+    font-size: 20px;
+    color: white;
+
+    position: absolute;
+    left: 60px;
+    top: 1400px;
+}
+
+.box1 {
+    width: 600px;
+    height: 300px;
+    background-color: gainsboro;
+    border: 5px solid white;
+    border-radius: 15px;
+
+    position: absolute;
+    left: 100px;
+    top: 1500px;
+}
+
+.user1 {
+    width: 100px;
+    height: 60px;
+
+    position: absolute;
+    top: 10px;
+}
+
+.user_name1 {
+    color: red;
+    font-size: 25px;
+
+    position: absolute;
+    left: 100px;
+    top: 21px;
+}
+
+.coment {
+    color: black;
+    font-size: 25px;
+
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+.box2 {
+    width: 600px;
+    height: 300px;
+    background-color: gainsboro;
+    border: 5px solid white;
+    border-radius: 15px;
+
+    position: absolute;
+    left: 100px;
+    top: 1850px;
+}
+
+.user2 {
+    width: 100px;
+    height: 60px;
+
+    position: absolute;
+    top: 10px;
+}
+
+.user_name2 {
+    color: red;
+    font-size: 25px;
+
+    position: absolute;
+    left: 100px;
+    top: 21px;
+}
+
+.coment2 {
+    color: black;
+    font-size: 25px;
+
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+
+.right {
+    width: 70px;
+    height: 70px;
+
+
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    font-size: 20px;
+    box-shadow: 0px 0px 5px 5px rgb(250,250,250);
+    transition: transform 500ms;
+
+}
+
+.right:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 2px 2px rgb(250,250,250);
+}
+
+.bar {
+    width: 3000px;
+    height: 170px;  
+
+    background-color: gray;
+    background: rgba(128, 128, 128, 0.5);
+}
