@@ -20,3 +20,11 @@ right.addEventListener(`click`, () => {
     right.textContent = `♬`;
     right.style.font.size = `60px`;
 })
+
+const myAudio = new Audio();
+myAudio.src = `../week8/music1.mp3`
+
+right.addEventListener(`click`, () => {
+    right.disabled = true;
+    myAudio.play();
+})
